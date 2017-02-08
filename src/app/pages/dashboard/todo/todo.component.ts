@@ -1,13 +1,11 @@
-import {Component, ViewEncapsulation} from '@angular/core';
+import {Component} from '@angular/core';
 import {BaThemeConfigProvider} from '../../../theme';
 
 import {TodoService} from './todo.service';
 
 @Component({
   selector: 'todo',
-  encapsulation: ViewEncapsulation.None,
-  styles: [require('./todo.scss')],
-  template: require('./todo.html')
+  templateUrl: './todo.html'
 })
 export class Todo {
   

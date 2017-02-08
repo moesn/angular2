@@ -32,7 +32,6 @@
         "variable-declaration": "space"
       }
     ],
-
     "ban": false,
     "curly": false,
     "forin": true,
@@ -50,7 +49,6 @@
     ],
     "no-construct": true,
     "no-debugger": true,
-    "no-duplicate-key": true,
     "no-duplicate-variable": true,
     "no-empty": false,
     "no-eval": true,
@@ -58,9 +56,7 @@
     "no-shadowed-variable": true,
     "no-string-literal": false,
     "no-switch-case-fall-through": true,
-    "no-unreachable": true,
     "no-unused-expression": true,
-    "no-unused-variable": false,
     "no-use-before-declare": true,
     "no-var-keyword": true,
     "radix": true,
@@ -76,7 +72,7 @@
     ],
     "max-line-length": [
       true,
-      100
+      120
     ],
     "no-require-imports": false,
     "no-trailing-whitespace": true,
@@ -88,7 +84,6 @@
         "singleline": "never"
       }
     ],
-
     "align": false,
     "class-name": true,
     "comment-format": [
@@ -111,7 +106,10 @@
       "single",
       "avoid-escape"
     ],
-    "semicolon": [true, "always"],
+    "semicolon": [
+      true,
+      "always"
+    ],
     "variable-name": [
       true,
       "check-format",

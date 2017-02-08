@@ -50,4 +50,4 @@ import { routing }       from './dashboard.routing';
     // UsersMapService
   ]
 })
-export default class DashboardModule {}
+export class DashboardModule {}

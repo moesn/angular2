@@ -26,8 +26,6 @@ Joker/
    │   │   │
    │   │   ├──app.component.ts   * 主组件
    │   │   │
-   │   │   ├──app.loader.ts      * 初始化CSS样式
-   │   │   │
    │   │   ├──app.menu.ts        * 菜单
    │   │   │
    │   │   ├──app.module.ts      * 主模块
